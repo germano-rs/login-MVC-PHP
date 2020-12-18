@@ -1,0 +1,6 @@
+RewriteEngine On
+RewritebASE /
+
+RewriteCond %{THE_REQUEST} public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ mvcLogin/public/index.php?pag=$1 [L,NC]

@@ -1,0 +1,13 @@
+{
+    "name": "germano/mvc",
+    "authors": [
+        {
+            "name": "Germano Raimar Silva",
+            "email": "german.o@outlook.com.br"
+        }
+    ],
+    "description": "MVC project",
+    "require": {
+        "phpmailer/phpmailer": "^6.2"
+    }
+}
